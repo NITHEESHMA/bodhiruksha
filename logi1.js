@@ -28,4 +28,4 @@ console.log(0 && "no mater");
 
 console.log(1 && 2 && null && 3);
 
-console.log(1&&2&&3);
+console.log(1 && 2 && 3);

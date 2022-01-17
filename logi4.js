@@ -9,7 +9,7 @@ var o1=true||true;
 var o2=false||true;
 var o3=true||false;
 var o4=false||(3==4);
-var o5='cat'||'dog';
+var o5='cat'||'dog';//first truth value 
 var o6=false||'cat';
 var o7='cat'||false;
 

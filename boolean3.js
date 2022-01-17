@@ -1,5 +1,5 @@
-var userLoggedIn=true;
-var premiumMember=false;
+var userLoggedIn = true;
+var premiumMember = false;
 
 console.log(userLoggedIn);
 console.log(premiumMember);
