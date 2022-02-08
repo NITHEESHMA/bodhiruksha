@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document object</title>
+</head>
+<body>
+    <div>
+       <button id="domain name" onclick="getDomain()">domain name</button><br>
+        <br>
+
+        
+        <button id="title" onclick="getTitle()">title</button><br><br>
+        <button id="url" onclick="getUrl()"> url</button>
+        <br>
+        
+
+
+        <a href="http://www.google.com">home</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
+        
+        <br>
+        <button id="anchor" onclick="anchorTag()">anchortag</button>
+    <br>
+
+
+    <a name="Tutor">Tutorix</a><br>
+<a name="Totorial">Tutorialspoint</a><br>
+
+<button id="what" onclick="firstAnchor()">first anchor</button>
+<br>
+
+
+        <button id="pCount" onclick="getCountName()">Count p</button>
+        <br>
+        
+
+       
+    <p id="mypara">haiiii</p>
+<p>hi</p>
+
+        <button  id="tag" onclick="countpara()">count paragraph</button>  
+
+<br>
+
+    
+
+        <button id="link" onclick="getCountLink()">count link</button>
+        <br>
+        <br>
+    <button id="links" onclick="getLink()">get link</button>
+        <br>
+        
+
+
+        <img src="https://tse3.mm.bing.net/th?id=OIP.0iqvqUM-_MntTZp4CMBaigHaEK&pid=Api&P=0&w=288&h=162" id="imageId" alt="flower" width="150" height="113">
+<img src="https://eskipaper.com/images/images-2.jpg" alt="flower" width="152" height="128">
+<img src="https://tse4.mm.bing.net/th?id=OIP.EL16mzg1s7f23lVdVhwg3AHaFj&pid=Api&P=0&w=216&h=162" alt="Smiley face" width="42" height="42">
+<button id="img" onclick="getImages()">images num</button><br<br>
+<button id="idimg" onclick="getId()">id of image</button>
+<br>
+
+
+<form>
+    <input type="text" name="name">enter number
+</form>
+
+
+<form></form>
+<br>
+<button id="form" onclick="getForm()">get forms</button>
+
+<br>
+<button id="num" onclick="getnameofform()">get name of form</button>
+
+          <br>
+          
+
+    </div>
+    <script>
+         function getDomain(){
+        document.getElementById('domain name').innerHTML=document.domain;
+        }
+        function getTitle(){
+        document.getElementById('title').innerHTML=document.title;
+        }
+        function getUrl(){
+        document.getElementById('url').innerHTML=document.URL;
+        }
+
+
+
+        function anchorTag(){
+            
+            document.getElementById("anchor").innerHTML = document.anchors.length;
+        
+        }
+        function firstAnchor(){
+
+        document.getElementById("what").innerHTML = document.anchors[0].innerHTML;
+    }
+        function getCountName(){
+            let paragraph = document.getElementsByTagName("p");
+            document.getElementById('pCount').innerHTML=paragraph[0].innerHTML;
+          
+        
+       
+        }
+
+
+       
+        
+
+        function getCountLink(){
+            let numb = document.links.length;
+            document.getElementById("link").innerHTML = numb;    
+
+        }
+
+function getLink(){
+        let url = document.links[0].href;
+document.getElementById("links").innerHTML = url;
+}
+
+function getImages(){
+    let image = document.images.length;
+document.getElementById("img").innerHTML = image;
+}
+
+function getId(){
+    let id=document.images[0].id;
+    document.getElementById("idimg").innerHTML = id;
+
+}
+function getForm(){
+    let num1 = document.forms.length;
+document.getElementById("form").innerHTML = num1;
+}
+      
+function getnameofform(){
+let name = document.forms[0].name;
+document.getElementById('num').innerHTML=name;
+}
+
+
+function countpara(){
+    var totalpara=document.getElementsByTagName("p");  
+    document.getElementById("tag").innerHTML=totalpara.length;
+}
+    </script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+setInterval(()=>console.log("namsthe"),1000);
