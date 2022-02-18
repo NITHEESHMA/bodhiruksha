@@ -1,0 +1,16 @@
+.container{
+   
+    /*background-color: black;*/
+    height: 500px;
+    width: 500px;
+   /* border: 20px solid black;*/
+}
+
+.carousel-inner>img{
+    width:640px;
+    height:360px;
+}
+h3{
+    margin-top: 70px;
+    color: rgb(127, 16, 218);
+}

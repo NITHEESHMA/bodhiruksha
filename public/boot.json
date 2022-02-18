@@ -1,0 +1,75 @@
+[
+
+    {
+       
+        "name":"Bata Brown Lether Boots",
+        "image":"https://tse2.mm.bing.net/th?id=OIP.yOY9PFKbnZDx6BcGv15ePAHaHa&pid=Api&P=0&w=158&h=158",
+        "price":"200Rs",
+        "des":"40% off"
+    },
+    {
+    
+    "name":"Bata Safari Boot",
+    "image":"https://www.agrinet.co.za/media/catalog/product/cache/1/image/900x900/9df78eab33525d08d6e5fb8d27136e95/B/4/B454951102.jpg",
+    "price":"299RS",
+    "des":"60% off"
+    
+    },
+    {
+       
+        "name":"Bata BA552",
+        "image":"https://www.workbootwarehouse.com.au/wp-content/uploads/2016/10/Hero2.png",
+        "price":"230Rs",
+        "des":"30% off"
+    },
+    
+    {
+        "name":"Bata Safari Infant Boot",
+        "image":"https://www.agrinet.co.za/media/catalog/product/cache/1/image/900x900/9df78eab33525d08d6e5fb8d27136e95/B/1/B154301105.jpg",
+        "price":"299Rs" ,
+        
+        "des":"50% off"  
+    },
+    
+    {
+        
+        "name":" BATA Sports shoes",
+        "image":"https://n2.sdlcdn.com/imgs/a/x/x/Bata-Brown-Sport-Shoes-SDL213310581-1-93c95.jpg",
+        "price":"290RS",
+        "des":"12% off " 
+        
+        },
+        {
+           
+            "name":"Bata Slippers",
+            "image":"https://n2.sdlcdn.com/imgs/h/i/d/Bata-Brown-Leather-Slippers-SDL964748595-4-73903.jpg",
+            "price":"230Rs",
+            "des":"13% off"
+        },
+        
+        {
+           
+            "name":"Bata Black Slipper",
+            "image":"https://n3.sdlcdn.com/imgs/e/5/1/Bata-Black-Sandals-SDL109645018-1-3cfb2.jpg",
+            "price":"290Rs" ,
+            "des":"14% off"  
+        },
+        {
+            
+            "name":"Bata Black Chappals",
+            "image":"https://cdn.shopify.com/s/files/1/2287/9679/products/MG_1187_1200x1200.JPG?v=1527229866",
+            "price":"200Rs",
+            "des":"11% off"
+        },
+    
+    {
+       
+        "name":"Bata Winter Boots",
+        "image":"https://3-pt-cdn.bata.eu/gallery/1534856.jpg",
+        "price":"200Rs",
+        "des":"11% off"
+    }
+    
+    
+    
+    ]
